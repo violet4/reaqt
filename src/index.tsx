@@ -1,9 +1,8 @@
-import React from "react";
 
-export const Thing = () => {
+export const MyComponent = () => {
   return (
     <div>
-      This is a thing you have installed from github. Good job!
+      This is a component you have installed from GitHub!
     </div>
   );
 };

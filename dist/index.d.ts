@@ -1,2 +1,1 @@
-import React from "react";
-export declare const Thing: () => React.JSX.Element;
+export declare const Thing: () => import("react/jsx-runtime").JSX.Element;

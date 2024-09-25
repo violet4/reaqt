@@ -1,11 +1,8 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Thing = void 0;
-var react_1 = __importDefault(require("react"));
+var jsx_runtime_1 = require("react/jsx-runtime");
 var Thing = function () {
-    return (react_1.default.createElement("div", null, "This is a thing you have installed from github. Good job!"));
+    return ((0, jsx_runtime_1.jsx)("div", { children: "This is a thing you have installed from github. Good job!" }));
 };
 exports.Thing = Thing;
