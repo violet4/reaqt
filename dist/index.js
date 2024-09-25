@@ -1,8 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Thing = void 0;
-var jsx_runtime_1 = require("react/jsx-runtime");
-var Thing = function () {
-    return ((0, jsx_runtime_1.jsx)("div", { children: "This is a thing you have installed from github. Good job!" }));
+import { jsx as _jsx } from "react/jsx-runtime";
+export var MyComponent = function () {
+    return (_jsx("div", { children: "This is a component you have installed from GitHub!" }));
 };
-exports.Thing = Thing;
