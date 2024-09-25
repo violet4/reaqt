@@ -2,13 +2,19 @@
   "name": "reaqt",
   "version": "1.0.0",
   "description": "react layout components",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "webpack",
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/violet4/reaqt.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "violet4",
   "license": "ISC",
   "dependencies": {
     "react": "^18.3.1",
