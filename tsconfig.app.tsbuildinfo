@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/vite-env.d.ts","./src/layouts/BaseLayouts.tsx","./src/layouts/FixedFooterLayout.tsx","./src/layouts/FlexGridLayout.tsx","./demo/App.tsx","./demo/main.tsx"],"version":"5.6.2"}
